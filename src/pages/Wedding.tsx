@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react"
 import Icon from "@/components/ui/icon"
 
 const RSVP_URL = "https://functions.poehali.dev/f4f76b0e-0668-4734-a16e-c7b3d1529d27"
-const COUPLE_PHOTO = "https://cdn.poehali.dev/projects/353bfe77-18be-4e07-a944-63e4f4bde468/files/9d478b45-2f30-48e8-9e33-c64b1d74b210.jpg"
+const COUPLE_PHOTO = "https://cdn.poehali.dev/projects/353bfe77-18be-4e07-a944-63e4f4bde468/bucket/382ed5df-3f54-4881-9eaf-c3a97d27bc27.jpg"
 
 const WEDDING_DATE = new Date("2026-06-12T16:00:00")
 
@@ -91,7 +91,7 @@ export default function Wedding() {
       {/* Hero */}
       <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src={COUPLE_PHOTO} alt="Кирилл и Полина" className="w-full h-full object-cover object-center" style={{ filter: "grayscale(100%) brightness(0.55)" }} />
+          <img src={COUPLE_PHOTO} alt="Кирилл и Полина" className="w-full h-full object-cover object-center" style={{ filter: "brightness(0.6)" }} />
         </div>
         <div className="absolute inset-0 z-10" style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0.7) 100%)" }} />
 
